@@ -56,7 +56,7 @@ def starts_with_consonant? s
      return false
   end
   first_letter = s[0].upcase
-  if first_letter.match(/[A-Z]/) == nil || first_letter.match(/[AEIOU]/)#first_letter == "A" || first_letter == "E" || first_letter == "I" || first_letter == "O" || first_letter == "U"
+  if first_letter.match(/[A-Z]/) == nil || first_letter.match(/[AEIOU]/)
     return false 
   end
   return true
